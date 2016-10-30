@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#p1 .s {
+	background: #222;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	-webkit-user-select: none;
+	cursor: pointer;
+	opacity: .99;
+}
+#p2 .s, .w { 
+	background: skyblue;
+	color: skyblue; 
+	-webkit-user-select: none;
+	cursor: pointer;
+	transition: background .3s;
+	opacity: .99;
+}
+.d { 
+	background: red;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	-webkit-user-select: none;
+	transition: background .3s;
+	opacity: .99;
+}
+.m { 
+	background: gray; 
+	text-align: center;
+	font-size: 20px;
+	-webkit-user-select: none;
+	transition: background .3s;
+	opacity: .99;
+}
+#p1 div, #p2 div { width: 25px; height: 25px; float: left; }
+#p1, #p2 { width: 250px; height: 250px; margin: 0 auto; margin-top: 25px;}
+
+.wrapper {
+	width: 55%;
+	padding: 5px;
+	margin: 100px auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.p1-wrap {
+	width: 300px;
+	height: 300px;
+	float: left;
+	background-color: #2897AF;
+	border-radius: 5px;
+	box-shadow: 0px 0px 7px #080808;
+}
+
+.p2-wrap {
+	width: 300px;
+	height: 300px;
+	float: right;
+	background-color: #2897AF;
+	border-radius: 5px;
+	box-shadow: 0px 0px 7px #080808;
+}
+
+button {
+	margin-left: 19px;
+	margin-top: 20px;
+	padding: 8px 15px;
+	border: none;
+	box-shadow: 0px 3px 0px #9C27B0;
+	background: #B51BA1;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+
+	transition: box-shadow .4s ease, transform .4s ease;
+}
+
+button:hover {
+	background: #922CAB;
+}
+
+button:active {
+	transform: translateY(3px);
+	box-shadow: none;
+}
+
+button:focus {
+	outline: none;
+}
+
