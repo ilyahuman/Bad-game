@@ -3,7 +3,7 @@
 	padding: 0;
 }
 
-#p1 .s {
+#p1 .unit {
 	background: #222;
 	color: #fff;
 	text-align: center;
@@ -12,15 +12,15 @@
 	cursor: pointer;
 	opacity: .99;
 }
-#p2 .s, .w { 
+#p2 .unit, .empty {
 	background: skyblue;
-	color: skyblue; 
+	color: skyblue;
 	-webkit-user-select: none;
 	cursor: pointer;
 	transition: background .3s;
 	opacity: .99;
 }
-.d { 
+.death {
 	background: red;
 	color: #fff;
 	text-align: center;
@@ -29,8 +29,8 @@
 	transition: background .3s;
 	opacity: .99;
 }
-.m { 
-	background: gray; 
+.miss {
+	background: gray;
 	text-align: center;
 	font-size: 20px;
 	-webkit-user-select: none;
@@ -92,4 +92,3 @@ button:active {
 button:focus {
 	outline: none;
 }
-
